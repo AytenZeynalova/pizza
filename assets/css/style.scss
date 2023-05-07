@@ -430,12 +430,246 @@
 }
 
 .newcomer{
-  .card1{
-    background-image: url(../images/014.jpg);
+
+  margin-top: 50px;
+  .txt{
+    h3{
+      font-family: 'Permanent Marker', cursive;
+      font-size: 1.3rem;
+      line-height: 1.4;
+      color: #89b758;
+      font-weight: 900;
+    }
+    h1{
+      color: #29361a;
+      font-family: 'Barlow', sans-serif;
+      font-size: 3.8rem;
+      line-height: 1.1;
+      font-weight: 900;
+  }
+
+  padding-bottom: 60px;
+    }
+
+    .card{
+      cursor: pointer;
+      transition: all .3s;
+      margin-bottom: 6rem;
+      background-color: transparent;
+      border: none;
+  
+      .card1{
+      
+      padding: 10px;
+      border-radius: 9px;
+      transition: all 0.3s;
+      cursor: pointer;
+      background-image: url(../images/014.jpg);
+      background-size: cover;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      
+  
+      .card-box{
+        margin-top: 10rem;
+      background: #ffffff;
+      z-index: 1;
+      box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.03);
+      border-radius: 6px;
+
+      h4{
+        margin: 0;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+      }
+
+      p{
+        color: #808080;
+        transition: all 0.3s;
+        font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 500;
+
+      }
+
+      h5{
+        color: #0e0e0e;
+    transition: all 0.3s;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+    padding-bottom: 1.5rem;
+      }
+
+      a{
+        width: 60px;
+    height: 60px;
+    background: #89b758;
+    font-size: 1.2rem;
+    margin: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    i{
+    color: #ffffff !important;
+
+    }
+      }
+      }
+      }
+    }
+
+
+  }
+ 
+  .bestfood{
+    padding-top: 90px;
+    padding-bottom: 105px;
+    background-color: #fafafa;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     background-size: cover;
+
+    .cart-img{
+      padding: 0 2rem;
+      width: auto;
+      background-color: transparent;
+    border: none;
+    }
+
+    .figure{
+      height: 100%;
+      align-self: center;
+      width: 228px;
+      img{
+        height: 100%;
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    display: block;
+    border-style: none;
+      }
+    }
+
+    .center-cart{
+      background: white;
+    padding: 3rem;
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+    width: 490px;
+    border-radius: 6px;
+
+    h2{
+      color: #89b758;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 1.6rem;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+
+    h1{
+      color: #29361a;
+      font-family: 'Barlow', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.1;
+    font-weight: 900;
+    font-style: normal;
+    padding-bottom: 3rem;
+
+    }
+
+    p{
+      color: #808080;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      font-style: normal;
+      padding-bottom: 3rem;
+      font-weight: 300;
+
+    }
+
+    .sec3-btn{
+      margin-bottom: -4rem;
+      color: #808080;
+      margin-left: -0.25rem;
+      margin-right: -0.25rem;
+      font-size: 0;
+
+      a{
+        border-radius: 100px;
+        background-color: #89b758 ;
+    border-color: #89b758 ;
+    color: #ffffff;
+    padding: 1rem 2.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin: 0.4rem 0.8rem ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    border-width: 1px;
+    font-style: normal;
+    text-decoration: none;
+i{
+  margin-right: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+
+}
+    &:hover{
+      background: #29361a ;
+    border-color: #29361a ;
+    }
+      }
+
+    }
+    }
+  }
+
+.our-menu{
+  padding-top: 45px;
+    padding-bottom: 45px;
+  h4{
+    color: #89b758;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.1;
+    font-weight: 900;
+    text-align: center;
+    color: #000000;
+  }
+
+  .menu-group{
+    .menu-item{
+      padding: 0;
+    display: flex;
+    margin-bottom: 1.5rem;
+    }
   }
 }
 
+
+  .justify-content-center{
+    justify-content: center;
+  }
+
+.space-between{
+  justify-content: space-between;
+}
 
 .center{
   text-align: center;

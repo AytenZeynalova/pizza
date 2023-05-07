@@ -448,9 +448,263 @@
   }
 }
 
-.newcomer .card1 {
+.newcomer {
+  margin-top: 50px;
+}
+
+.newcomer .txt {
+  padding-bottom: 60px;
+}
+
+.newcomer .txt h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #89b758;
+  font-weight: 900;
+}
+
+.newcomer .txt h1 {
+  color: #29361a;
+  font-family: 'Barlow', sans-serif;
+  font-size: 3.8rem;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.newcomer .card {
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-bottom: 6rem;
+  background-color: transparent;
+  border: none;
+}
+
+.newcomer .card .card1 {
+  padding: 10px;
+  border-radius: 9px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
   background-image: url(../images/014.jpg);
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.newcomer .card .card1 .card-box {
+  margin-top: 10rem;
+  background: #ffffff;
+  z-index: 1;
+  -webkit-box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+
+.newcomer .card .card1 .card-box h4 {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.newcomer .card .card1 .card-box p {
+  color: #808080;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.newcomer .card .card1 .card-box h5 {
+  color: #0e0e0e;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.newcomer .card .card1 .card-box a {
+  width: 60px;
+  height: 60px;
+  background: #89b758;
+  font-size: 1.2rem;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newcomer .card .card1 .card-box a i {
+  color: #ffffff !important;
+}
+
+.bestfood {
+  padding-top: 90px;
+  padding-bottom: 105px;
+  background-color: #fafafa;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bestfood .cart-img {
+  padding: 0 2rem;
+  width: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.bestfood .figure {
+  height: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 228px;
+}
+
+.bestfood .figure img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  -webkit-box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  display: block;
+  border-style: none;
+}
+
+.bestfood .center-cart {
+  background: white;
+  padding: 3rem;
+  -webkit-box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.08);
+  width: 490px;
+  border-radius: 6px;
+}
+
+.bestfood .center-cart h2 {
+  color: #89b758;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 900;
+}
+
+.bestfood .center-cart h1 {
+  color: #29361a;
+  font-family: 'Barlow', sans-serif;
+  font-size: 3.8rem;
+  line-height: 1.1;
+  font-weight: 900;
+  font-style: normal;
+  padding-bottom: 3rem;
+}
+
+.bestfood .center-cart p {
+  color: #808080;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-style: normal;
+  padding-bottom: 3rem;
+  font-weight: 300;
+}
+
+.bestfood .center-cart .sec3-btn {
+  margin-bottom: -4rem;
+  color: #808080;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+}
+
+.bestfood .center-cart .sec3-btn a {
+  border-radius: 100px;
+  background-color: #89b758;
+  border-color: #89b758;
+  color: #ffffff;
+  padding: 1rem 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin: 0.4rem 0.8rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  font-weight: bold;
+  border-width: 1px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.bestfood .center-cart .sec3-btn a i {
+  margin-right: 0.8rem;
+  margin-bottom: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.bestfood .center-cart .sec3-btn a:hover {
+  background: #29361a;
+  border-color: #29361a;
+}
+
+.our-menu {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.our-menu h4 {
+  color: #89b758;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+}
+
+.our-menu h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 3.8rem;
+  line-height: 1.1;
+  font-weight: 900;
+  text-align: center;
+  color: #000000;
+}
+
+.our-menu .menu-group .menu-item {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .center {

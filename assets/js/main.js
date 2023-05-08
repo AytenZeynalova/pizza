@@ -32,3 +32,25 @@ function smoothScroll(target) {
     });
   });
   
+
+
+
+
+  $('.play-icon').on('click', function(e){
+    e.preventDefault();
+    $('.modalWindow-video').addClass('open');
+    $(".modalWindow-video").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/q7ywieLNCHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>');
+  });
+  
+  $('.modalWindow-video, .close').on('click', function(e){
+    e.preventDefault();
+    close_video();
+  });
+  
+  $(document).keyup(function(e){
+    if(e.keyCode === 27) { close_video(); }
+  });
+  
+  function close_video() {
+    $('.modalWindow-video.open').removeClass('open').find('iframe').remove();
+  };
